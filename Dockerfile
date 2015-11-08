@@ -13,7 +13,7 @@ ENV DEBIAN_FRONTEND noninteractive
 # Install dependencies
 RUN sudo dpkg --add-architecture i386
 RUN sudo apt-get update
-RUN sudo apt-get install -y tmux mailutils postfix lib32gcc1 libstdc++6 libstdc++6:i386 git wget vim column
+RUN sudo apt-get install -y tmux mailutils postfix lib32gcc1 libstdc++6 libstdc++6:i386 git wget vim bsdmainutils
 
 # Cleanup
 RUN sudo apt-get clean
