@@ -5,7 +5,7 @@
 #
 
 # Pull the base image
-FROM ubuntu:14.04
+FROM ubuntu:16.04
 MAINTAINER Daniel Gibbs <me@Danielgibbs.co.uk>
 
 ENV DEBIAN_FRONTEND noninteractive
