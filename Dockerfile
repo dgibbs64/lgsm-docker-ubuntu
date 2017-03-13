@@ -35,7 +35,7 @@ WORKDIR /home/lgsm
 USER lgsm
 
 # Install CSGO Server
-RUN git clone https://github.com/dgibbs64/linuxgsm.git
+RUN git clone https://github.com/GameServerManagers/linuxgsm.git
 
 # Expose port
 # - 27015: Port to serve on
